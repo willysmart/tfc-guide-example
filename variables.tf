@@ -1,6 +1,6 @@
 variable "aws_region" {
   type    = string
-  default = "ap-northeast-2"
+  default = "us-east-1"
 }
 
 variable "db_table_name" {
@@ -15,7 +15,7 @@ variable "db_read_capacity" {
 
 variable "db_write_capacity" {
   type    = number
-  default = 2
+  default = 1
 }
 
 variable "tag_user_name" {
